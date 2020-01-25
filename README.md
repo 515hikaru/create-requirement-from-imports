@@ -7,6 +7,7 @@ sample project for dephell magic
 $ curl -L dephell.org/install | python3
 $ pip3 install jupyter
 $ jupyter nbconvert --to script notebook/load_data.ipynb
+$ touch notebook/__init__.py
 $ dephell deps convert --from imports --to requirements.txt
 ```
 
